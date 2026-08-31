@@ -2,7 +2,8 @@
 
 **Your career, harvested once. CVs tailored to any job in minutes, inside Claude Code.**
 
-[![skills.sh](https://skills.sh/b/ahmohamed/tailor)](https://skills.sh/ahmohamed/tailor)
+<!-- TODO: once the repo shows on skills.sh, swap for the live install-count badge: https://skills.sh/b/ahmohamed/tailor -->
+[![skills.sh](https://img.shields.io/badge/skills.sh-npx%20skills%20add%20ahmohamed%2Ftailor-black)](https://skills.sh/ahmohamed/tailor)
 
 Tailor is a career knowledge base that lives in a git repo and is operated by [Claude Code](https://claude.com/claude-code). You harvest your career once — old CVs, GitHub, LinkedIn, publications, or just an interview — into canonical project records. From then on, every job ad, tender, or bio request is a five-minute tailoring pass over records you trust, not a rewrite from memory.
 
