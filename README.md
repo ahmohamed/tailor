@@ -42,7 +42,7 @@ Then, inside Claude Code:
 
 ## Requirements
 
-- [Claude Code](https://claude.com/claude-code)
+- Any skills-compatible coding agent ([Claude Code](https://claude.com/claude-code), or any of the [agents supported by skills.sh](https://github.com/vercel-labs/skills#supported-agents))
 - For PDF rendering: `typst`, `poppler`, `pandoc`, Font Awesome 7
   (`brew install typst poppler pandoc && brew install --cask font-fontawesome`)
 - Optional: `gh` CLI (GitHub harvest), a LinkedIn data export, an ORCID (publications)
