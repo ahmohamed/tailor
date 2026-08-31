@@ -10,6 +10,8 @@ Goal: a `content/` that `/tailor` can select from — project records, facts, ta
 Throughout: you are harvesting to surface work the user forgot to claim, not auditing claims. Record the user's own framing as authoritative. Tag everything by role level — `[led]` `[built]` `[analysed]` `[contributed]` `[team]` — and never promote a level. When sources conflict (an old CV says ">400 citations", Scholar says 842), log it in `content/DISCREPANCIES.md` with both readings and move on; the user resolves it at the end.
 
 ## 0 — Environment check
+If the repo scaffolding is missing (no `check.py`, `templates/`, or `content/` in the working directory — happens when the skills were installed standalone, e.g. `npx skills add ahmohamed/tailor`), scaffold it first: download the template (`curl -L https://github.com/ahmohamed/tailor/archive/refs/heads/main.tar.gz | tar xz`) and copy `check.py`, `templates/`, `content/`, `briefs/`, and `sources/` into the working directory — skip `.claude/`, `README.md`, `LICENSE`, and `demo.gif`, and never overwrite existing files. Remind the user their copy must stay private if it will hold career data.
+
 Check, report missing with the install one-liner, but don't block (only /cvrender needs the render stack):
 - `typst`, `pdftoppm` (poppler), `pandoc`: `brew install typst poppler pandoc` (or distro equivalent)
 - Font Awesome 7: `brew install --cask font-fontawesome`

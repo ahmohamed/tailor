@@ -2,6 +2,8 @@
 
 **Your career, harvested once. CVs tailored to any job in minutes, inside Claude Code.**
 
+[![skills.sh](https://skills.sh/b/ahmohamed/tailor)](https://skills.sh/ahmohamed/tailor)
+
 Tailor is a career knowledge base that lives in a git repo and is operated by [Claude Code](https://claude.com/claude-code). You harvest your career once — old CVs, GitHub, LinkedIn, publications, or just an interview — into canonical project records. From then on, every job ad, tender, or bio request is a five-minute tailoring pass over records you trust, not a rewrite from memory.
 
 <p align="center"><img src="demo.gif" alt="Tailor demo: a job ad tailored into a designed CV" width="700"></p>
@@ -23,6 +25,12 @@ templates/ 10 typst designs; /cvrender turns a draft into a designed PDF
 # use this repo as a template (keep your copy PRIVATE — it will hold your career data)
 gh repo create my-kb --template ahmohamed/tailor --private --clone && cd my-kb
 claude
+```
+
+Or install the skills into any agent via [skills.sh](https://skills.sh/ahmohamed/tailor) — `/setup` scaffolds the rest on first run:
+
+```sh
+npx skills add ahmohamed/tailor
 ```
 
 Then, inside Claude Code:

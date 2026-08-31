@@ -7,6 +7,8 @@ description: Turn a tailored briefs/<name>/draft.md into a designed, send-ready 
 
 Agent-driven, not a pipeline. You write `briefs/<name>/cv.typ` by hand from `draft.md`, compile, look at the pages, and iterate until it looks like a designed document. Facts come from `draft.md` only (which came from `content/`); you reword and cut, never invent. Never promote role levels.
 
+If `templates/` is missing from the working directory (standalone skill install), run `/setup` first — it scaffolds the repo layout this skill needs.
+
 ## Steps
 1. Read `briefs/<name>/draft.md` and `spec.md` (doc type, page budget, paper size — US employers: `us-letter`). Ignore `<!-- src -->`, `## Trace`, `## Gaps`; those never render. A `# Cover note` section is a separate deliverable, not part of the CV.
 2. Pick a design from `templates/designs/` (table in `templates/README.md`; `sh templates/preview.sh` to see them all). If `spec.md` or the user names one, use it; otherwise choose for the audience (04 editorial for academia, 08 terminal/05 timeline for engineering, 01/10 for mixed, 03/07 for industry). Copy it to `briefs/<name>/cv.typ`; change `../_lib.typ` → `/templates/_lib.typ`; replace the `_sample` import with an inline `#let d = (...)` in the same shape. Layout, colours, section order are yours to change — the design is a starting point, not a contract.
