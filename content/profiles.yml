@@ -1,0 +1,12 @@
+# Presets = starting points for /tailor, not gates. /setup creates your first one.
+# Fields: include_domains (rank first), exclude_projects, emphasis_capabilities, sections, max_projects, visibility_max.
+#
+# example:
+#   include_domains: [software]
+#   emphasis_capabilities: [web-fullstack]
+#   exclude_projects: []
+#   sections: [summary, skills, experience, selected-projects, education]
+#   max_projects: 6
+#   visibility_max: private
+
+{}

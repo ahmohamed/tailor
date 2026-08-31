@@ -1,0 +1,16 @@
+# Controlled vocab for project frontmatter. Seeded by /setup from your harvest; add ids only when a project uses them.
+# Keep ids kebab-case and short; the value is a one-line gloss.
+
+domains: {}
+# biomed-research: Bioinformatics, clinical biomarker discovery
+# software: Web apps, APIs, packages
+
+capabilities: {}
+# machine-learning: Classification/regression, production ML
+# web-fullstack: Django/Flask/Node backends + React fronts
+
+tech:            # sub-grouped; any grouping works, check.py flattens them
+  languages: []
+  frameworks: []
+  data: []
+  infra: []

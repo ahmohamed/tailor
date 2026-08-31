@@ -1,0 +1,22 @@
+# Thin facts. Substance lives in content/projects/*.md; each project has role: <id below> or personal.
+# /setup fills this. Keys with no entries yet may be empty lists.
+
+roles: []
+# - id: acme            # stable id — project frontmatter `role:` points at it
+#   org: Acme Corp
+#   title: Senior Engineer
+#   location: City, Country
+#   start: 2020-01      # YYYY or YYYY-MM
+#   end: null           # null = ongoing
+#   summary: One line on what the role was.
+
+education: []
+# - {degree: PhD in X, org: University of Y, year: 2016}
+
+awards: []
+memberships: []
+teaching: []
+talks: []
+languages: []
+links: {}
+# links: {github: https://github.com/<handle>, linkedin: ..., scholar: ..., site: ...}
