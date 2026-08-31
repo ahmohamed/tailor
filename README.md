@@ -4,7 +4,7 @@
 
 Tailor is a career knowledge base that lives in a git repo and is operated by [Claude Code](https://claude.com/claude-code). You harvest your career once — old CVs, GitHub, LinkedIn, publications, or just an interview — into canonical project records. From then on, every job ad, tender, or bio request is a five-minute tailoring pass over records you trust, not a rewrite from memory.
 
-![Tailor demo: a job ad tailored into a designed CV](demo.gif)
+<p align="center"><img src="demo.gif" alt="Tailor demo: a job ad tailored into a designed CV" width="700"></p>
 
 ## How it works
 
