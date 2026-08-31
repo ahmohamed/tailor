@@ -1,11 +1,11 @@
 # Tailor
 
-**Your career, harvested once. CVs tailored to any job in minutes, inside Claude Code.**
+**Your career, harvested once. CVs tailored to any job in minutes, inside your coding agent.**
 
 <!-- TODO: once the repo shows on skills.sh, swap for the live install-count badge: https://skills.sh/b/ahmohamed/tailor -->
 [![skills.sh](https://img.shields.io/badge/skills.sh-npx%20skills%20add%20ahmohamed%2Ftailor-black)](https://skills.sh/ahmohamed/tailor)
 
-Tailor is a career knowledge base that lives in a git repo and is operated by [Claude Code](https://claude.com/claude-code). You harvest your career once — old CVs, GitHub, LinkedIn, publications, or just an interview — into canonical project records. From then on, every job ad, tender, or bio request is a five-minute tailoring pass over records you trust, not a rewrite from memory.
+Tailor is a career knowledge base that lives in a git repo and is operated by your coding agent — [Claude Code](https://claude.com/claude-code) or any [skills-compatible agent](https://github.com/vercel-labs/skills#supported-agents). You harvest your career once — old CVs, GitHub, LinkedIn, publications, or just an interview — into canonical project records. From then on, every job ad, tender, or bio request is a five-minute tailoring pass over records you trust, not a rewrite from memory.
 
 <p align="center"><img src="demo.gif" alt="Tailor demo: a job ad tailored into a designed CV" width="700"></p>
 
@@ -25,7 +25,7 @@ templates/ 10 typst designs; /cvrender turns a draft into a designed PDF
 ```sh
 # use this repo as a template (keep your copy PRIVATE — it will hold your career data)
 gh repo create my-kb --template ahmohamed/tailor --private --clone && cd my-kb
-claude
+claude   # or start your agent of choice
 ```
 
 Or install the skills into any agent via [skills.sh](https://skills.sh/ahmohamed/tailor) — `/setup` scaffolds the rest on first run:
@@ -34,7 +34,7 @@ Or install the skills into any agent via [skills.sh](https://skills.sh/ahmohamed
 npx skills add ahmohamed/tailor
 ```
 
-Then, inside Claude Code:
+Then, inside your agent:
 
 1. `/setup` — environment check, facts interview, then guided harvest: drop old CVs in `sources/inbox/`, connect GitHub via `gh`, add a LinkedIn export, pull publications from OpenAlex — or just let it interview you. It writes the records, you resolve any conflicts it finds.
 2. `/tailor "<paste a job ad>"` — researches the employer and the role, selects your strongest relevant records, stops for your review, then drafts.
